@@ -16,8 +16,6 @@ Future<void> onRequest(RequestOptions options,RequestInterceptorHandler handler)
       final sp = await SharedPreferences.getInstance();
       headers.addAll({authHeaderKey:'Bearer ${sp.getString(LocalConstantsStorage.accesToken)}'});
     }
-
-
     super.onRequest(options, handler);
   }
 
