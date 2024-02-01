@@ -1,5 +1,6 @@
 library fe_lab_clinicas_core;
 
+export 'src/constants/local_constants_storage.dart';
 export 'src/exceptions/auth_exceptions.dart';
 export 'src/exceptions/repository_exception.dart';
 export 'src/exceptions/service_exception.dart';
