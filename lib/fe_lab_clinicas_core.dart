@@ -8,4 +8,5 @@ export 'src/fp/either.dart';
 export 'src/helpers/messages.dart';
 export 'src/nil.dart';
 export 'src/restClient/rest_client.dart';
+export 'src/theme/lab_clinicas_theme.dart';
 export 'src/unit.dart';
