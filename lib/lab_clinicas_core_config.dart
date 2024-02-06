@@ -27,6 +27,7 @@ class LabClinicasCoreConfig extends StatelessWidget {
             loader: LabClinicasLoader(),
             builder: (navigatorObserver){
             return MaterialApp(
+            debugShowCheckedModeBanner: false,  
             title: title,
             routes: routes,
             navigatorObservers: [navigatorObserver,flutterGetItNavObserver],

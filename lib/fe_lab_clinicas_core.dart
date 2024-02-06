@@ -10,3 +10,5 @@ export 'src/nil.dart';
 export 'src/restClient/rest_client.dart';
 export 'src/theme/lab_clinicas_theme.dart';
 export 'src/unit.dart';
+export 'src/widgets/icon_popup_menu_widget.dart';
+export 'src/widgets/lab_clinicas_app_bar.dart';
