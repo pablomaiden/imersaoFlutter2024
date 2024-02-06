@@ -1,4 +1,4 @@
-class ServcieException implements Exception{
+class ServiceException implements Exception{
 final String message;
-ServcieException({this.message = ''});
+ServiceException({this.message = ''});
 }
